@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.wrapper{
+    height: 910px;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: silver;
+}
+.top{
+    height: 200px;
+    width: 100%;
+    background-color: skyblue;
+}
+.top p{
+    line-height: 200px;
+    text-align: center;
+}
+.box-row{
+    display: flex;
+    text-align: center;
+    line-height: 700px;
+}
+.box-left{
+    height: 700px;
+    width: 60%;
+    margin: 5px 5px 0 0;
+    background-color: darksalmon;
+}
+.box-right{
+    height: 700px;
+    width: 40%;
+    margin: 5px 0 0 5px;
+    background-color: darkseagreen;
+}
+
+
