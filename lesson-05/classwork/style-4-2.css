@@ -60,7 +60,7 @@ a:hover{
 
 /*header__banner*/
 .header__banner{
-    height: 250px;
+    /*height: 250px;*/
     background: #35edf3;
 }
 .header__banner_items{
@@ -82,7 +82,7 @@ a:hover{
 
 /*benefits*/
 .benefits{
-    height: 325px;
+    /*height: 325px;*/
     background: #d0c4c4;
     padding: 35px 0;
 }
@@ -113,7 +113,7 @@ a:hover{
 
 /*top-product*/
 .top-product{
-    height: 325px;
+    /*height: 325px;*/
     background: #3b3b3b;
     padding: 35px 0;
 }
@@ -265,4 +265,68 @@ a:hover{
     border-radius: 15px;
 }
 
+
+
+/*media screen 480*/
+
+@media screen and (max-width: 480px){
+    .header__top-menu{
+        display: none;
+    }
+    .header__main-menu_items{
+        padding: 0 15px;
+    }
+    .header__banner_items{
+        row-gap: 10px;
+        padding: 15px 0;
+    }
+    .header__banner_text{
+        padding: 0 15px;
+    }
+    .benefits{
+        padding: 15px 0;
+    }
+    .benefits__items{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+    .top-product{
+        padding: 0;
+    }
+    .top-product__item:nth-child(3){
+        display: none;
+    }
+    .product{
+        padding: 0;
+    }
+    .product__card:nth-child(3){
+        display: none;
+    }
+    .product__cards{
+        padding: 5px 5px 10px 5px;
+    }
+    .product__card{
+        width: 220px;
+    }
+    .card__top_img{
+        width: 200px;
+    }
+    .reviews{
+        padding: 35px 0 0 0;
+    }
+    .reviews__items{
+        display: flex;
+        flex-direction: column;
+    }
+    .reviews__items_left, .reviews__items_right{
+        align-items: center;
+    }
+    .item__left_text, .item__right_text{
+        text-align: center;
+    }
+    .footer{
+        padding: 15px 0;
+    }
+}
 
