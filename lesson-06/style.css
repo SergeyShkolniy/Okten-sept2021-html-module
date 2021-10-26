@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+/*Header*/
+
+.header{
+    height: 800px;
+    width: 100vw;
+    background: url("img/bg-image.png") no-repeat center/cover;
+}
+.header__top{
+    display: flex;
+    justify-content: center;
+}
+.header__top_left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 268px;
+    border-right: 1px solid #fff;
+    padding-right: 15px;
+}
+.top__left_burger{
+    display: none;
+}
+.left__burger_item{
+    height: 3px;
+    width: 31px;
+    background: #FF7400;
+    border-radius: 50px;
+}
+.top__left_nav{
+    display: flex;
+    column-gap: 25px;
+}
+.left__nav_item a{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #fff;
+}
+.header__top_right{
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+    padding-left: 35px;
+}
+.right__contact_phone{
+    display: flex;
+    column-gap: 5px;
+    align-items: center;
+}
+.contact__phone_item a{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 25px;
+    color: #fff;
+}
+.contact__phone_text{
+    width: 165px;
+    font-size: 14px;
+    line-height: 19px;
+    color: #fff;
+
+}
+.top__right_btn{
+    padding: 15px 20px;
+    background-color: #FF7400;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.header__main{
+    max-width: 500px;
+    padding-top: 205px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+}
+.main__content_item h2{
+    padding-left: 25px;
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 57px;
+    color: #D67E35;
+}
+.main__content_item h1{
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 92px;
+    color: #D67E35;
+}
+.main__content_items p{
+    font-size: 18px;
+    line-height: 25px;
+    color: #fff;
+}
+.main__content_items span{
+    display: block;
+    height: 2px;
+    width: 60px;
+    background-color: #C4C4C4;
+}
+.main__content_items{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+    justify-content: center;
+    padding-top: 12px;
+}
+.header__main_btn{
+    width: 137px;
+    padding: 15px 0;
+    background-color: #FF7400;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 19px;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.header__foods{
+    padding-top: 125px;
+    display: flex;
+    justify-content: space-around;
+}
+.header__foods_item{
+    padding-top: 35px;
+    text-align: center;
+    height: 349px;
+    width: 328px;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+}
+.foods__item_title h3{
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #2C2C2C;
+}
+.foods__item_title span{
+    color: #BC9060;
+}
+.foods__item_text p{
+    font-family: 'Tinos', serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 30px;
+    color: #656363;
+    padding-top: 20px;
+}
+
+.mobile-block{
+    display: none;
+}
