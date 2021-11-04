@@ -109,6 +109,9 @@
     .product-card__box:nth-child(4){
         display: none;
     }
+    .page-banner-long__box:nth-child(2){
+        display: none;
+    }
 
 }
 
@@ -172,6 +175,14 @@
         padding: 5px;
         font-size: 16px;
         line-height: 20px;
+    }
+    .price__new{
+        font-size: 16px;
+        line-height: 14px;
+    }
+    .price__old{
+        font-size: 14px;
+        line-height: 16px;
     }
 
 }
@@ -411,15 +422,19 @@
         .main__right_social{
             justify-content: space-around;
         }
-
-
-
+        .page-banner-long__arrow_left,
+        .page-banner-long__arrow_right{
+            display: none;
+        }
 
 
 
     }
     @media (max-width: 320px) {
-
+        .page-banner-long__arrow_left,
+        .page-banner-long__arrow_right{
+            display: none;
+        }
     }
 
 
