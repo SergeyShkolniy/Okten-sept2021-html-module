@@ -106,6 +106,9 @@
     .main__right_social{
         justify-content: start;
     }
+    .product-card__box:nth-child(4){
+        display: none;
+    }
 
 }
 
@@ -148,6 +151,27 @@
     }
     .avt-zap img {
         max-width: 222px;
+    }
+    .product-card__box:nth-child(3){
+        display: none;
+    }
+    .news__container{
+        padding-bottom: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .container__main_left{
+        column-gap: 25px;
+    }
+    .page-btn__blue{
+        padding: 7px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .page-btn__white{
+        padding: 5px;
+        font-size: 16px;
+        line-height: 20px;
     }
 
 }
